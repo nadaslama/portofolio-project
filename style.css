@@ -1,4 +1,89 @@
 
+#heading1{
+    font: 5oo;
+    color: rgb(55, 96, 172);
+    text-align: center;
+}
+
+#header{
+    overflow: hidden;
+    background:#f1f1f1;
+    padding: 20px 10px;
+}
+#navpar{
+    
+        background:#add ;
+        padding-left: 10px;
+        list-style: none;
+      }
+#h2{
+    font: 400;
+    color: rgb(24, 66, 190);
+    
+}
+#p1{
+    color: rgb(31, 66, 78);
+    border: 4 4 4 4;
+}
+#p2{
+    color: lightcoral;
+}
+#p3{
+    color: rgb(31, 66, 78);
+    
+}
+#p4{
+    color: lightcoral;
+}
+#p5{
+    color: rgb(31, 66, 78);
+}
+#p6{
+    color: lightcoral;
+}
+#p7{
+    color: rgb(31, 66, 78);
+}
+#p8{
+    color: lightcoral;
+}
+#img1{
+    position: relative;
+    height: 200px;
+    widows: 100px;
+    
+}
+#h3{
+    text-align: left;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.582)
+}
+#h4{
+    font-style: italic;
+    color: rgb(24, 66, 190);
+    text-align: left;
+    
+}
+#p9{
+    text-align:left;
+    
+}
+#p10{
+    text-align:left;
+    
+}
+#p11{
+    text-align: left;
+    
+}
+#h5{
+    font-style: italic;
+    color: rgb(24, 66, 190);
+    text-align: left;
+    
+}
+
+
 
     
 
