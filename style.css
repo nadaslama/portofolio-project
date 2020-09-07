@@ -1,89 +1,336 @@
+/*-----------------------small device--------------------------------*/
 
-#heading1{
-    font: 5oo;
-    color: rgb(55, 96, 172);
-    text-align: center;
-}
-
-#header{
-    overflow: hidden;
-    background:#f1f1f1;
-    padding: 20px 10px;
-}
-#navpar{
-    
-        background:#add ;
-        padding-left: 10px;
-        list-style: none;
+@media only screen and (max-width:1000px){
+  
+  
+   body{
+       background-image: url("/images/pngtree-simple-and-beautiful-starry-dreamy-purple-background-image_67219.jpg");
+       background-position: center;
+   }
+    #container {
+        display: grid;
+        width: 100%;
+        height: 250px;
+        grid-template-areas: "head head"
+                             "nav  main"
+                             "foot  foot";
+        grid-template-rows: 100px 1fr 60px;
+        grid-template-columns: 100px 2fr;
+        column-gap: 20px;
+        row-gap: 20px;
       }
-#h2{
-    font: 400;
-    color: rgb(24, 66, 190);
+      
+      #container > header {
+        grid-area: head;
+      color:rgb(236, 163, 176);
+        text-align: center;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      
+      #container > nav {
+        grid-area: nav;
+        
+    }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        font-size: 20px;
+      text-align : left;
+        
+        
+      }
+        li a {
+            display: block;
+            color:rgb(236, 145, 162);
+            padding: 8px 16px;
+            text-decoration: none;
+          }
+          
+          li a:hover {
+            background-color:   rgb(248, 210, 243);
+             color: rgb(152, 129, 252);
+          }
+        
+        
+     
+      
+      #container > main {
+        grid-area: main;
+        margin-left: 10px;
+       padding-left: 10px;
+      }
+      
+    #container > main > img{
+        height: 230px;
+        width: 250px;
+        border-radius: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #container > main > div > p{
+        font-size: 25px;
+        text-align: center;
+        color: rgb(245, 135, 230);
+    }
+    #container > main > div > p1 {
+        font-size: 20px;
+        color:whitesmoke
+    } 
+    a{
+        display: block;
+        color: whitesmoke;
+        padding: 8px 16px;
+        text-decoration: none;
+        text-align: center;
+        font-size: 20px;
+    }
+    #container > main > div > form > textarea{
+        width: 200px;
+        height: 100px;
+        background: rgb(215, 237, 245);
+        display: block;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    #container > main > div > form > input{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+   
     
-}
-#p1{
-    color: rgb(31, 66, 78);
-    border: 4 4 4 4;
-}
-#p2{
-    color: lightcoral;
-}
-#p3{
-    color: rgb(31, 66, 78);
-    
-}
-#p4{
-    color: lightcoral;
-}
-#p5{
-    color: rgb(31, 66, 78);
-}
-#p6{
-    color: lightcoral;
-}
-#p7{
-    color: rgb(31, 66, 78);
-}
-#p8{
-    color: lightcoral;
-}
-#img1{
-    position: relative;
-    height: 200px;
-    widows: 100px;
-    
-}
-#h3{
-    text-align: left;
-    font-style: italic;
-    color: rgba(0, 0, 0, 0.582)
-}
-#h4{
-    font-style: italic;
-    color: rgb(24, 66, 190);
-    text-align: left;
-    
-}
-#p9{
-    text-align:left;
-    
-}
-#p10{
-    text-align:left;
-    
-}
-#p11{
-    text-align: left;
-    
-}
-#h5{
-    font-style: italic;
-    color: rgb(24, 66, 190);
-    text-align: left;
-    
+      #container > footer {
+        grid-area: foot;
+       text-align: center;
+      }
+ 
 }
 
 
+/*-----------------------tablet device--------------------------------*/
 
+@media only screen and (min-width:1001px){
+  body{
+    background-image: url("/images/pngtree-simple-and-beautiful-starry-dreamy-purple-background-image_67219.jpg");
+    background-position: center;
+}
+ #container {
+     display: grid;
+     width: 100%;
+     height: 250px;
+     grid-template-areas: "head head"
+                          "nav  main"
+                          "foot  foot";
+     grid-template-rows: 100px 1fr 60px;
+     grid-template-columns: 100px 2fr;
+     column-gap: 20px;
+     row-gap: 20px;
+   }
+   
+   #container > header {
+     grid-area: head;
+   color:rgb(236, 163, 176);
+     text-align: center;
+     font-size: 30px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   
+   #container > nav {
+     grid-area: nav;
+     
+ }
+   ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     width: 200px;
+     font-size: 20px;
+   text-align : left;
+     
+     
+   }
+     li a {
+         display: block;
+         color:rgb(236, 145, 162);
+         padding: 8px 16px;
+         text-decoration: none;
+       }
+       
+       li a:hover {
+         background-color:   rgb(248, 210, 243);
+          color: rgb(152, 129, 252);
+       }
+     
+     
+  
+   
+   #container > main {
+     grid-area: main;
+     margin-left: 10px;
+    padding-left: 10px;
+   }
+   
+ #container > main > img{
+     height: 230px;
+     width: 250px;
+     border-radius: 30%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ #container > main > div > p{
+     font-size: 25px;
+     text-align: center;
+     color: rgb(245, 135, 230);
+ }
+ #container > main > div > p1 {
+     font-size: 20px;
+     color:whitesmoke
+ } 
+ a{
+     display: block;
+     color: whitesmoke;
+     padding: 8px 16px;
+     text-decoration: none;
+     text-align: center;
+     font-size: 20px;
+ }
+ #container > main > div > form > textarea{
+     width: 200px;
+     height: 100px;
+     background: rgb(215, 237, 245);
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ #container > main > div > form > input{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ 
+   #container > footer {
+     grid-area: foot;
+    text-align: center;
+   }
+
+  
+ }
     
+
+/*-----------------------large device--------------------------------*/
+
+@media only screen and (min-width:2000px){
+  body{
+    background-image: url("/images/pngtree-simple-and-beautiful-starry-dreamy-purple-background-image_67219.jpg");
+    background-position: center;
+}
+ #container {
+     display: grid;
+     width: 100%;
+     height: 250px;
+     grid-template-areas: "head head"
+                          "nav  main"
+                          "foot  foot";
+     grid-template-rows: 100px 1fr 60px;
+     grid-template-columns: 100px 2fr;
+     column-gap: 20px;
+     row-gap: 20px;
+   }
+   
+   #container > header {
+     grid-area: head;
+   color:rgb(236, 163, 176);
+     text-align: center;
+     font-size: 30px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   
+   #container > nav {
+     grid-area: nav;
+     
+ }
+   ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     width: 200px;
+     font-size: 20px;
+   text-align : left;
+     
+     
+   }
+     li a {
+         display: block;
+         color:rgb(236, 145, 162);
+         padding: 8px 16px;
+         text-decoration: none;
+       }
+       
+       li a:hover {
+         background-color:   rgb(248, 210, 243);
+          color: rgb(152, 129, 252);
+       }
+     
+     
+  
+   
+   #container > main {
+     grid-area: main;
+     margin-left: 10px;
+    padding-left: 10px;
+   }
+   
+ #container > main > img{
+     height: 230px;
+     width: 250px;
+     border-radius: 30%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ #container > main > div > p{
+     font-size: 25px;
+     text-align: center;
+     color: rgb(245, 135, 230);
+ }
+ #container > main > div > p1 {
+     font-size: 20px;
+     color:whitesmoke
+ } 
+ a{
+     display: block;
+     color: whitesmoke;
+     padding: 8px 16px;
+     text-decoration: none;
+     text-align: center;
+     font-size: 20px;
+ }
+ #container > main > div > form > textarea{
+     width: 200px;
+     height: 100px;
+     background: rgb(215, 237, 245);
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ #container > main > div > form > input{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ 
+   #container > footer {
+     grid-area: foot;
+    text-align: center;
+   }
+
+   
+}
 
