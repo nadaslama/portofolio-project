@@ -5,68 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>portfolio website</title>
-   
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
 <body>
-
-  <section id="container">
-    <header>
+   <div id="page-container">
+      <header id="head">
       <h1 id =h1>Nada Salama</h1>
     </header>
-    <nav>
-      <ul><li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#my projects"> Projects</a></li>
-        <li><a href="# opinions"> opinions</a></li>
-        
-      </ul>
+      <section id="img__container">
+    <img src="/images/WhatsApp Image 2020-09-05 at 8.34.40 PM.jpeg" alt="nada">
+   </section>
+      <nav id="main__nav">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#my projects"> Projects</a></li>
+      <li><a href="# opinions"> opinions</a></li>
       
-    </nav>
-  <main>
-      <img src="/images/WhatsApp Image 2020-09-05 at 8.34.40 PM.jpeg" alt="nada">
-      <div id="about">
-        <p id="p">About:
-        </p>
-     <br>
-         <p1 id="p1">
-     Hi! I am Nada Salama, I am 19 years old and I study in the Faculty of Computers and Information.
-           (Damietta University).
-     I am very excited to be delving into programming. Currently studying front end development and I hope to be a professional front-end developer.
-         </p1>
-     </div>
-      <div id="project">
-        <p id="p1">
-       Projects:
-        </p>
-     
-     <br>
-     
-     <a href ="#first-project">First-project</a>
-   </div>
-   
-       <div id="opinion">
-      <p id="h5">
-       Write your opinion: 
+    </ul>
+    
+   </nav>
+      <main id="main__container">
+    <div id="about">
+      <p id="p">About me:
       </p>
-     <br>
-     <form action="/action_page.php">
-      
-       <textarea id="opinions" >
-           *write here*
-         </textarea>
-         <br><br>
-         <input type="submit" value="Submit">
-     </form>
-    </div>
-   </main>
-  
+   <br>
+       <p1 id="p1">
+   Hi! I am Nada Salama, I am 19 years old and I study in the Faculty of Computers and Information.
+         (Damietta University).
+   I am very excited to be delving into programming. Currently studying front end development and I hope to be a professional front-end developer.
+       </p1>
+   </div>
+    <div id="project">
+      <p id="p1">
+     Projects:
+      </p>
    
-    <footer>
-      <p>
-        copyright 2020 @ my website.com 
-        </p>     
-    </footer>
-  </section>
+   <br>
+   
+   <a href ="#first-project">First-project</a>
+ </div>
+ 
+     <div id="opinion">
+    <p id="h5">
+     Write your opinion: 
+    </p>
+   <br>
+   <div>
+    <form action="/action_page.php">
+
+      <span class="label f-name">First Name</span>
+      <br>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <br>
+      <span class="label l-name">Last Name</span>
+      <br>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      
+   
+    </form>
+  </div>
+   <form action="/action_page.php">
+    <br>
+     <textarea id="opinions" >
+         *write here*
+       </textarea>
+      
+       <input type="submit" value="Submit">
+   </form>
+  </div>
+   </main>
+      <footer id="foot">
+    <p>
+      copyright reserved _ 2020 @ my__ website.com 
+      </p> 
+   <nav id= "nav_list">
+        <ul id="socialmedia">
+          <li id= "list_item01">
+            <a href="#facebook"><i class="fa fa-facebook "></i></a>
+          </li>
+          <li id= "list_item02">
+            <a href="#instgram"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li id = "list_item03" >
+            <a href ="#twitter"><i class="fa fa-twitter"></i></a>
+          </li>
+        </ul>
+    </nav>
+   </footer>
+  
+    
+  
           
    <script src="app.js"></script> 
 </body>
