@@ -11,7 +11,8 @@
  
    body{
        background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-black-and-white-tones-simple-business-wind-starry-sky-background-black-image_86214.jpg");
-      
+      /* background-size: cover;
+      background-repeat: no-repeat; */
 
    }
     #page-container {
@@ -69,7 +70,7 @@
     
     li a {
       display: block;
-      color:rgb(240, 118, 140);
+      color:rgb(253, 180, 193);
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
@@ -78,7 +79,7 @@
     
     li a:hover {
       background-color:   rgb(248, 210, 243);
-             color: rgb(152, 129, 252);
+             color: rgb(248, 97, 135);
     }
      
     
@@ -94,7 +95,7 @@
       div > p{
         font-size: 35px;
         text-align: center;
-        color: rgb(104, 9, 57);
+        color: rgb(250, 127, 189);
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       }
       div > p1 {
@@ -129,7 +130,7 @@
        color: whitesmoke;
        font-size: 20px;
        border-top: 1px solid #fff;
-       
+       padding-top: 15px;
 
       }
       
@@ -147,7 +148,8 @@
  
 body{
   background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-black-and-white-tones-simple-business-wind-starry-sky-background-black-image_86214.jpg");
- 
+  background-size: cover;
+      background-repeat: no-repeat;
 
 }
 #page-container {
@@ -196,16 +198,15 @@ ul {
  padding: 0;
  overflow: hidden;
  font-size: 20px;
- 
+ text-align: center;
+ display: flex;
 }
 
-li {
- float: left;
-}
+
 
 li a {
  display: block;
- color:rgb(240, 118, 140);
+ color:rgb(253, 180, 193);
  text-align: center;
  padding: 14px 16px;
  text-decoration: none;
@@ -214,7 +215,7 @@ li a {
 
 li a:hover {
  background-color:   rgb(248, 210, 243);
-        color: rgb(152, 129, 252);
+        color: rgb(248, 97, 135);
 }
 
 
@@ -230,7 +231,7 @@ li a:hover {
  div > p{
    font-size: 35px;
    text-align: center;
-   color: rgb(104, 9, 57);
+   color: rgb(250, 127, 189);
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
  }
  div > p1 {
@@ -334,7 +335,7 @@ li a:hover {
  
  li a {
    display: block;
-   color:rgb(240, 118, 140);
+   color:rgb(253, 180, 193);
    text-align: center;
    padding: 14px 16px;
    text-decoration: none;
@@ -343,7 +344,7 @@ li a:hover {
  
  li a:hover {
    background-color:   rgb(248, 210, 243);
-          color: rgb(152, 129, 252);
+          color: rgb(248, 97, 135);
  }
   
  
@@ -359,7 +360,7 @@ li a:hover {
    div > p{
      font-size: 35px;
      text-align: center;
-     color: rgb(104, 9, 57);
+     color: rgb(250, 127, 189);
      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    }
    div > p1 {
